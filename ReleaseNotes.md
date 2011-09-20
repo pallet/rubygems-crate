@@ -1,5 +1,7 @@
 # Release notes
 
+## rubygems-0.6.0
+
 - Fixed script call of tmp-dir in rubygems crate
 
 - Update crates for pallet 0.6.3
@@ -15,7 +17,7 @@
 
 - Update for 0.5.0-SNAPSHOT
   Change pallet.resource.* to pallet.action.*. Change stevedore calls to
-  script functions to use unquote and the pallet.script.lib namespace. 
+  script functions to use unquote and the pallet.script.lib namespace.
   Change request to session.  Change build-resources to build-actions.
 
 
