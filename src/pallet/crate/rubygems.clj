@@ -14,7 +14,7 @@
    [pallet.stevedore :as stevedore]
    [pallet.stevedore :as stevedore]
    [pallet.utils :as utils]
-   [clojure.contrib.json :as json]))
+   [clojure.data.json :as json]))
 
 (script/defscript gem-cmd [action package & [{:as options} & _]])
 (script/defimpl gem-cmd :default [action package & options]

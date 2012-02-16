@@ -20,6 +20,11 @@
       <groupId>org.cloudhoist</groupId>
       <artifactId>ruby</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>data.json</artifactId>
+      <version>0.1.2</version>
+    </dependency>
   </dependencies>
   <!-- make sure we can find the parent pom -->
   <repositories>
